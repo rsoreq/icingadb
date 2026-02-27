@@ -49,7 +49,7 @@ jobs:
         run: xz -9 debug.log
       - name: Upload Debug Log
         if: ${{ always() }}
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f # v7
         with:
           name: ${{ matrix.database.name }}-debug.log.xz
           path: debug.log.xz
