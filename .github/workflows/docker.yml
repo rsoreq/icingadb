@@ -18,7 +18,7 @@ jobs:
 
     steps:
       - name: Docker image
-        uses: Icinga/docker-icingadb@master
+        uses: Icinga/docker-icingadb@181940fcffa2b6f9db8a5bdd85a2cb1819946a7a # master
         with:
           dockerhub-token: '${{ secrets.DOCKER_HUB_PERSONAL_TOKEN }}'
 
@@ -28,6 +28,6 @@ jobs:
 
     steps:
       - name: Docker image
-        uses: Icinga/docker-icingadb@master
+        uses: Icinga/docker-icingadb@181940fcffa2b6f9db8a5bdd85a2cb1819946a7a # master
         with:
           dockerhub-token: '${{ secrets.DOCKER_HUB_PERSONAL_TOKEN }}'
